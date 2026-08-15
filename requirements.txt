@@ -1,0 +1,7 @@
+streamlit>=1.10.0
+pandas>=1.5
+# pin joblib explicitly so deploy installs it
+joblib>=1.1.0
+# scikit-learn may be needed to unpickle model; pin a commonly-available release
+scikit-learn>=1.2.0
+
